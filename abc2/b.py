@@ -17,6 +17,9 @@ This is a test e-mail message.
 from a import get_chrome
 
 try:
+    #import os
+    #os.system("app 1")
+
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
     smtpObj.login("petterjoin2018@gmail.com", "fakatvdofpozscyq")

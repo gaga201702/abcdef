@@ -1,6 +1,7 @@
 missing module named resource - imported by posix, E:\eclipse_python\workspace2\abc2\b.py
 missing module named posix - imported by os, E:\eclipse_python\workspace2\abc2\b.py
 missing module named _posixsubprocess - imported by subprocess, E:\eclipse_python\workspace2\abc2\b.py
+missing module named org - imported by pickle, E:\eclipse_python\workspace2\abc2\b.py
 missing module named readline - imported by cmd, code, pdb, E:\eclipse_python\workspace2\abc2\b.py
 excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\eclipse_python\workspace2\abc2\b.py
 missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\eclipse_python\workspace2\abc2\b.py
@@ -11,9 +12,8 @@ missing module named 'java.lang' - imported by platform, E:\eclipse_python\works
 missing module named vms_lib - imported by platform, E:\eclipse_python\workspace2\abc2\b.py
 missing module named termios - imported by tty, E:\eclipse_python\workspace2\abc2\b.py, getpass
 missing module named grp - imported by shutil, tarfile, E:\eclipse_python\workspace2\abc2\b.py
-missing module named _dummy_threading - imported by dummy_threading, E:\eclipse_python\workspace2\abc2\b.py
-missing module named 'org.python' - imported by copy, E:\eclipse_python\workspace2\abc2\b.py, xml.sax
 missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, E:\eclipse_python\workspace2\abc2\b.py, netrc, getpass
-missing module named org - imported by pickle, E:\eclipse_python\workspace2\abc2\b.py
+missing module named 'org.python' - imported by copy, E:\eclipse_python\workspace2\abc2\b.py, xml.sax
+missing module named _dummy_threading - imported by dummy_threading, E:\eclipse_python\workspace2\abc2\b.py
 missing module named 'Carbon.File' - imported by macpath
 missing module named Carbon - imported by macpath
