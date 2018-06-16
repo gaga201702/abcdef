@@ -1,0 +1,1 @@
+"C:\Users\abc\AppData\Local\Programs\Python\Python36\python.exe" "C:\Users\abc\AppData\Local\Programs\Python\Python36\Scripts\pyinstaller-script.py" b.py --onefile  --icon=icon.ico 

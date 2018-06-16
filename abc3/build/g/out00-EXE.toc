@@ -2,7 +2,7 @@
  True,
  False,
  False,
- None,
+ 'icon3.ico',
  None,
  False,
  False,
@@ -171,7 +171,7 @@
  [],
  False,
  False,
- 1528298908,
+ 1529168015,
  [('run.exe',
    'c:\\users\\administrator\\abc\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
